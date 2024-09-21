@@ -1,0 +1,92 @@
+nav  {
+    padding: 10px;
+    background-color: gray;
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+
+    display: inline;
+    padding: 10px;
+  }
+
+   nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    
+
+  }
+  
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 700;
+
+  }
+  .hm{
+    background-color: aqua;
+    padding: 20px;
+  
+  }
+  
+  .ab {
+    background-color: orchid;
+    padding: 20px;
+  }
+  
+  .wk {
+    background-color: olive;
+    padding: 20px;
+
+  }
+  
+  .re {
+    background-color: blue;
+    padding: 20px;
+  }
+  
+  .ct {
+    background-color: yellow;
+    padding: 20px;
+    align-content: center;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
